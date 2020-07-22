@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'BeyondTheMountains';
+    src: url('fonts/BeyondTheMountains.eot?#iefix') format('embedded-opentype'),
+    url('fonts/BeyondTheMountains.otf')  format('opentype'),
+    url('fonts/BeyondTheMountains.woff') format('woff'),
+    url('fonts/BeyondTheMountains.ttf')  format('truetype'),
+    url('fonts/BeyondTheMountains.svg#BeyondTheMountains') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: url('images/bg.jpg') ;
+}         
+
+.header{
+    text-align: center;       
+    
+}
+h1{
+    color: white;
+    padding-top: 15px;
+    font-size: 35px;
+    font-family: cursive;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(248, 243, 236);
+}
+
+h2{
+    font-weight: 100px;
+    color: white;
+    font-family: 'BeyondTheMountains';
+
+ }
+/***************
+         STYLING THE NAV BAR
+                             ************/
+li, a{
+     font-family: "Montserrat", sans-serif;
+     font-weight: 520;
+     font-size: 16px;
+     color: #0e1011;
+     text-decoration: none;
+     }
+                        
+.nav__links {
+     list-style: none;
+                 }
+                            
+.nav__links li {
+     display: inline-block;
+     padding: 0px 20px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 20%;
+                                
+                     }
+                            
+.nav__links li a {
+      transition: all 0.3s ease 0s;
+                     }
+                            
+.nav__links li a:hover {
+      color: #0088a9
+                 }
+
+/***********           *********************/                           
+
+p{
+    color: azure
+}
+
+h4{color: white;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 25px
+}
+
+
+img{
+    border-radius: 80px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+}
+
+.column1 {
+    float: left;
+    width: 20%;
+}
+
+.left{
+    padding-left: 2in;
+}
+
+/********************************************
+     DESIGNING THE TABLE
+     **************************************/
+tr, th, td{
+    border: 20px solid rgb(167, 160, 160);
+    background-color: rgb(167, 160, 160);
+    
+}
+
+#course{
+    margin: auto;
+}
+
+
+
+td{
+    color: white;
+    font-family: cursive;
+    font-size: 11pt;
+    font-weight: bold;
+    
+    
+    
+}
+
+th{
+    color: white;
+    font-size: 12pt;
+    background-color: rgb(136, 123, 123);
+    font-weight: bold;
+}
+
+/********************************************
+     STYLING THE FORM
+     **************************************/
+#form{
+    color: aliceblue;
+    padding-left: 6in;
+    font-size: 18px;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  input{
+    padding: 2px;
+    border-radius: 4px;
+    width: 25%;
+    height: 20px;
+  }
+
+  #submit{
+      font-size: 20px;
+      height: 30px;
+      animation: ease-out;
+  }
+
+  /********************************************
+     STYLING THE INTERESTS SECTION
+     *****************************************/
+#interests{
+    margin: auto;
+}
+
+#interests tr td{
+    border-radius: 5%;
+    border:2px solid;
+    padding:10px 40px; 
+    width:250px;
+    resize:both;
+    overflow:auto;
+}
+
+ 
+/*
+#interests li{
+color: white;
+text-align: center;
+text-decoration: none;
+list-style: none;
+
+}
+ 
+/*
+.sec1{
+    border-style: dotted;
+    border-radius: 5%;
+    margin: 50px;
+    width: 25%;
+    height: 20%;
+    background-color: rgb(173, 154, 154);
+    
+}
+
+.doug{
+    position: relative;
+    top: -355px;
+    left: 500px;
+}
+
+.mwase{
+    position: relative;
+    top: -718px;
+    left: 980px;
+}
+
+.moses{
+    position: relative;
+    top: -710px;
+}
+
+.rutaro{
+    position: relative;
+    top: -1420px;
+    left: 500px;
+}
+
+.elvis{
+    position: relative;
+    top: -1060px;
+    left: 980px;
+}
+
+.engolu{
+    position: relative;
+    top: -1440px;
+}
+
+.ssaka{
+    position: relative;
+    top: -1800px;
+    left: 980px;
+}
+
+*/
